@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 18px;
+}
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .navbar a {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+.home .about .services .contact{
+    padding: 20px;
+    text-align: center;
+}
